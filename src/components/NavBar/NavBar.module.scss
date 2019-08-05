@@ -1,0 +1,20 @@
+@import "~../../styles/colors";
+
+.NavBar {
+  background-color: $chambray;
+
+  .navbarUpper {
+    padding: 0.4rem;
+    background-color: $biscay;
+  }
+
+  nav {
+    color: $white;
+
+    .navLink {
+      color: $white;
+      font-size: 2rem;
+      font-weight: 300;
+    }
+  }
+}
